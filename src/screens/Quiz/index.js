@@ -18,7 +18,7 @@ function ResultWidget({ results }) {
       </Widget.Header>
 
       <Widget.Content>
-        <p>
+        <h1>
           Você acertou
           {' '}
           {/* {results.reduce((somatoriaAtual, resultAtual) => {
@@ -31,7 +31,7 @@ function ResultWidget({ results }) {
           {results.filter((x) => x).length}
           {' '}
           perguntas
-        </p>
+        </h1>
         <ul>
           {results.map((result, index) => (
             <li key={`result__${result}`}>
@@ -101,10 +101,12 @@ function QuestionWidget({
       <Widget.Content>
         <h2>
           {question.title}
+          <p/>
         </h2>
         <p>
           {question.description}
         </p>
+
 
         <AlternativesForm
           onSubmit={(infosDoEvento) => {
@@ -149,7 +151,9 @@ function QuestionWidget({
             Confirmar
           </Button>
           {isQuestionSubmited && isCorrect && <p>Você acertou!</p>}
-          {isQuestionSubmited && !isCorrect && <p>Você errou!</p>}
+          {isQuestionSubmited && !isCorrect && <p>A resposta correta é a número {question.answer + 1}
+            {/* <p>{question.description}</p> */}
+            </p>}
         </AlternativesForm>
       </Widget.Content>
     </Widget>

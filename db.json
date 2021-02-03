@@ -1,38 +1,137 @@
 {
-    "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
-    "title": "Quiz CSS",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "bg": "https://cdn.wallpapersafari.com/8/47/mIXPkx.jpg",
+    "title": "Quizz - História LGBT",
+    "description": "Teste os seus conhecimentos sobre a história LGBTQIA+",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
+        "image": "https://c4.wallpaperflare.com/wallpaper/4/102/413/dark-space-flowers-rainbows-wallpaper-preview.jpg",
+        "title": "Quando a Associação Americana de Psiquiatria deixou de classificar a homossexualidade como um problema mental?",
+        "description": "",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "1953",
+          "1986",
+          "1973",
+          "1946"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://famewatcher.com/wp-content/uploads/2019/09/ben-platt-payton-hobart-the-politician-debate-river-barkley.gif",
+        "title": "Quais os nomes, respectivamente, do primeiro homem abertamente gay a ser eleito para um cargo político na Califórnia e da primeira travesti a conquistar um cargo eletivo no Brasil?",
+        "description": "",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Harvey Milk e Kátia Tapety",
+           "Pete Buttigieg e Duda Salabert",
+           "Ricardo Lara e Duda Salabert",
+           "Pete Buttigieg e Erika Hilton"
+        ]
+      },
+      {
+        "image": "https://media0.giphy.com/media/osjmdNTWgvpiU/source.gif",
+        "title": "Como é conhecida a primeira vez que se marchou contra a repressão e o preconceito lgbtfóbico no Brasil?",
+        "description": "Em meio à ditadura civil-militar brasileira, o delegado José Wilson Richetti se tornou conhecido pelas “Operação Limpeza” e “Operação Sapatão”, cujo objetivo era perseguir (e espancar) homossexuais, travestis e prostitutas. Até que um grupo de homossexuais, com ajuda dos movimentos negro e feminista, organizou um protesto nas escadarias do Theatro Municipal, em 13 de junho de 1980",
+        "answer": 3,
+        "alternatives": [
+           "Orgulho e resistência",
+           "Constituição de 1988",
+           "Parada do orgulho LGBT",
+           "Stonewall brasileiro"
+        ]
+      },
+      {
+        "image": "https://media.nojoto.com/gif/main/gif-2019-07-26-17-21-16-4c84294fef62f6fefbc9491fb10e5660.gif",
+        "title": "Assinado por Clinton em 1993, a política Don't Ask, Don't Tell foi revogada sob a administração de",
+        "description": "Com ela, soldados norte-americanos ‘poderiam’ ser gays contanto que não contassem a ninguém",
+        "answer": 1,
+        "alternatives": [
+           "Ronald Reagan",
+           "Barack Obama",
+           "Harvey Milk",
+           "Donald Trump"
+        ]
+      },
+      {
+        "image": "https://media.tenor.com/images/a0e02f2d0fb7bdcba9e195d1843fec0a/tenor.gif",
+        "title": "Os EUA se tornaram o 21º país a legalizar o casamento entre pessoas do mesmo sexo. Isto ocorreu em:",
+        "description": "O Brasil passou a reconhecer uniões estáveis de homossexuais em 2011",
+        "answer": 1,
+        "alternatives": [
+           "1991",
+           "2015",
+           "1970",
+           "2009"
+        ]
+      },
+      {
+        "image": "https://gay.blog.br/wp-content/uploads/2020/03/tenor.gif",
+        "title": "Qual o nome da primeira organização não governamental na América Latina voltada às pessoas trans?",
+        "description": "Com ela, a sigla GLS ganhou um T e passou a ser mais inclusiva. Lembremos que em 2020, pelo 12º ano consecutivo, Brasil foi o país que mais mata transexuais no mundo.",
+        "answer": 2,
+        "alternatives": [
+           "CASA 1 - Centro de Cultura e Acolhimento LGBT",
+           "ANTRA - Associação Nacional de Travestis e Transexuais",
+           "ASTRAL - Associação de Travestis e Liberados",
+           "CAIS - Centro de Apoio e Inclusão Social de Travestis e Transexuais"
+        ]
+      },
+      {
+        "image": "https://pa1.narvii.com/6925/190a38dcb89bc58d23bcd02b84e70517dde7151fr1-500-212_hq.gif",
+        "title": "Qual era o nome do primeiro jornal de temática homossexual fundado no Brasil?",
+        "description": "A publicação denunciava abusos contra LGBTs, principalmente durante a ditadura.",
+        "answer": 3,
+        "alternatives": [
+           "Zero Hora",
+           "Júnior",
+           "O Globo",
+           "O Lampião"
+        ]
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlvgwgzWDOTKCKzCgwA-D8ASi7h45gDaaSnw&usqp=CAU",
+        "title": "Dos 69 países que ainda é crime ser LGBTQIA+ hoje, em 13 deles, ainda é condenado a morte. Dentre as opções, quais são?",
+        "description": "Também fazem parte: Sudão, Irã, Iêmen, Mauritânia, Afeganistão, Paquistão, Iraque, partes da Síria, partes da Nigéria e partes da Somália.",
+        "answer": 0,
+        "alternatives": [
+           "Arábia Saudita, Catar e Emirados Árabes Unidos",
+           "Coréia do Norte, Bulgária e Israel",
+           "China, Tonga e Tibete",
+           "Tunísia, Coréia do Sul e Bangladesh"
+        ]
+      },
+      {
+        "image": "https://data.whicdn.com/images/100371447/original.gif",
+        "title": "Até pouco tempo, homossexuais só podiam doar sangue no Brasil, se não tivessem feito sexo nos últimos 12 meses. Em que ano o STF derrubou esta restrição?",
+        "description": "A doação de sangue de uma pessoa, seja ela LGBTQIA+ ou não, faz a diferença para a vida de muitos.",
+        "answer": 3,
+        "alternatives": [
+           "2008",
+           "2015",
+           "2019",
+           "2020"
+        ]
+      },
+      {
+        "image": "https://media2.giphy.com/media/3oz8xtprbtd0wEWOoU/giphy.gif",
+        "title": "Qual é considerado o pior país para ser LGBTQIA+ no mundo?",
+        "description": "Neste país, a homossexualidade foi descriminalizada no ano 2000. Mas, na prática, pouca coisa mudou. Você pode ser preso e/ou multado apenas por “parecer” gay.",
+        "answer": 1,
+        "alternatives": [
+           "Afeganistão",
+           "Azerbaijão",
+           "Brasil",
+           "República Theca"
         ]
       }
     ],
     "external": [
-      ""
+      "https://aluraquiz-css.omariosouto.vercel.app/",
+      "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
     ],
     "theme": {
       "colors": {
-        "primary": "#0d47a1",
-        "secondary": "#29b6f6",
+        "primary": "#673ab7",
+        "secondary": "#ff4569",
         "mainBg": "#181818",
         "contrastText": "#FFFFFF",
         "wrong": "#FF5722",
